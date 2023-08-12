@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .description {
+      flex: 1;
+      padding: 1rem;
+    }
+
+    .description img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .buttons {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .button {
+      margin: 0.5rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      background-color: #000000;
+      color: white;
+      cursor: pointer;
+      border-radius: 50%; /* Create an ellipse shape */
+      width: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+
+    .button:active {
+      transform: scale(0.95);
+      background-color:  #4dff4d;
+      cursor: grabbing;
+    }
+  </style>
+  <title>Sadya Coupons</title>
+</head>
+<body>
+  <header>
+    <h1>Sadya Coupons</h1>
+  </header>
+  <main>
+    <section class="content">
+      <div class="description">
+        <img src="assets/img/work3.jpg" alt="Description Image">
+      </div>
+      <div class="buttons">
+        <button class="button" id="ms19">MS19</button>
+        <button class="button" id="ms20">MS20</button>
+        <button class="button" id="ms21">MS21</button>
+        <button class="button" id="ms22">MS22</button>
+        <button class="button" id="ms23">MS23</button>
+        <button class="button" id="phdplus">PhD</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
